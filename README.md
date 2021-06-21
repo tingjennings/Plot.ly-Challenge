@@ -1,4 +1,4 @@
-# Plot.ly Homework - Belly Button Biodiversity
+# Plot.ly - Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
@@ -72,7 +72,7 @@ The following task is advanced and therefore optional.
 
 ## Rubric
 
-[Unit 15 Rubric - Plot.ly Homework - Belly Button Biodiversity](https://docs.google.com/document/d/14ZKfNF4ws6CxlUsrhI81Q3YD06h0QQ1PbZa6BMnr7w4/edit?usp=sharing)
+[Unit 15 Rubric - Plot.ly - Belly Button Biodiversity](https://docs.google.com/document/d/14ZKfNF4ws6CxlUsrhI81Q3YD06h0QQ1PbZa6BMnr7w4/edit?usp=sharing)
 
 - - -
 
@@ -82,5 +82,5 @@ Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly 
 
 - - -
 
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Ting Jennings. All Rights Reserved.
 # Plot.ly-Challenge
