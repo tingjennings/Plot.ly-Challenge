@@ -1,11 +1,11 @@
 // Create gauge chart
 function createGaugeChart(id) {
-    d3.json("samples.json").then((data) => {
+    d3.json("./static/samples.json").then((data) => {
         // Filter sample values by selected id
 
         var filteredMetadata = data.metadata.filter(sample => sample.id === id)[0];
         var wfreq = filteredMetadata.wfreq;
-        console.log(wfreq);
+        //console.log(wfreq);
 
         var data = [
             {

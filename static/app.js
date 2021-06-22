@@ -1,11 +1,11 @@
 // Create plots: bar chart and bubble chart
 function createChart(id) {
-    d3.json("samples.json").then((data) => {
-        console.log(data)
+    d3.json("./static/samples.json").then((data) => {
+        //console.log(data)
 
         // Filter sample values by selected id
         var filteredSample = data.samples.filter(sample => sample.id === id)[0];
-        console.log(filteredSample);
+        //console.log(filteredSample);
         // Get the top 10 OTUs
         var values = filteredSample.sample_values.slice(0, 10).reverse();
         var otuids = filteredSample.otu_ids.map(otuid => `OTU ${otuid}`).slice(0, 10).reverse();
@@ -55,9 +55,9 @@ function createChart(id) {
 
 // Display the metadata
 function displayMetadata(id) {
-    d3.json("samples.json").then((data) => {
+    d3.json("./static/samples.json").then((data) => {
         var filteredMetadata = data.metadata.filter(sample => sample.id === id)[0];
-        console.log(filteredMetadata);
+        //console.log(filteredMetadata);
         var sampleMetadata = d3.select("#sample-metadata");
         sampleMetadata.html("");
         Object.entries(filteredMetadata).forEach(function ([key, value]) {
@@ -80,7 +80,7 @@ function optionChanged(id) {
 function init() {
     var dropdown = d3.select("#selDataset");
     // Generate the sample list to populate the select options
-    d3.json("samples.json").then((data) => {
+    d3.json("./static/samples.json").then((data) => {
         data.names.forEach(function(name) {
             dropdown.append("option").text(name).property("value");
         });
